@@ -36,8 +36,9 @@ hey! getting cached data
 "
 
 ## SAMPLE 3:
+
+## hilbert <- function(n) { i <- 1:n; 1 / outer(i - 1, i, "+") }
 "
-hilbert <- function(n) { i <- 1:n; 1 / outer(i - 1, i, "+") }
 h4 <- makeCacheMatrix(hilbert(4))
 
 > cacheSolve(h4)
